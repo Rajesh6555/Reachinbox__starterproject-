@@ -1,0 +1,5 @@
+reachinbox-onebox-starter/
+├── backend/ # Express + TypeScript API server
+├── frontend/ # Next.js (React) UI client
+├── elasticsearch/ # Local config for Elasticsearch
+└── README.md # Project documentation
