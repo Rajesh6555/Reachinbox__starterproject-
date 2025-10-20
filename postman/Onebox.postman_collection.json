@@ -1,0 +1,35 @@
+﻿{
+  "info": {
+    "name": "ReachInbox Onebox",
+    "_postman_id": "c9c6c7f7-aaaa-bbbb-cccc-000011112222",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health",
+      "request": {
+        "method": "GET",
+        "url": "{{baseUrl}}/health"
+      }
+    },
+    {
+      "name": "Categorize",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\n  \"subject\": \"Invoice for September\",\n  \"body\": \"Hy this is Rajesh...\"\n}" },
+        "url": "{{baseUrl}}/categorize"
+      }
+    },
+    {
+      "name": "New Email",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": { "mode": "raw", "raw": "{\n  \"subject\": \"Meeting tomorrow\",\n  \"body\": \"Schedule a call\"\n}" },
+        "url": "{{baseUrl}}/new-email"
+      }
+    }
+  ],
+  "variable": [{ "key": "baseUrl", "value": "http://localhost:5050" }]
+}
