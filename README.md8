@@ -9,3 +9,88 @@ This project is a full-stack email categorization and automation system built wi
 ---
 
 ## 🧱 Project Structure
+
+reachinbox-onebox-starter/
+│
+├── frontend/ # Next.js frontend
+│ ├── src/
+│ └── .env.local
+│
+├── backend/ # Node.js backend
+│ ├── src/
+│ └── .env
+│
+└── README.md
+
+
+---
+
+## ⚙️ Setup Instructions
+
+### 🖥️ Backend
+1. Navigate to backend folder:
+   ```bash
+   cd backend
+   npm install
+   npm run dev
+
+
+Backend runs on:
+🔗 http://localhost:5050
+
+🌐 Frontend
+
+Navigate to frontend folder:
+
+cd frontend
+npm install
+npm run dev
+
+
+Frontend runs on:
+🔗 http://localhost:3000
+
+🧠 Features
+
+✅ Categorize emails using AI logic
+✅ Sync IMAP inbox
+✅ Suggest replies (AI-based)
+✅ Label emails (Interested, Not Interested, Billing, etc.)
+✅ Backend health check API
+
+🧑‍💻 Author
+
+Rajesh Inapakurthi
+📍 Full Stack Developer (MERN + TypeScript)
+🔗 GitHub: Rajesh6555
+
+🏁 Status
+
+✅ Frontend Completed
+✅ Backend Functional
+⚠️ Elasticsearch Setup Pending
+📦 ~90% Project Completion
+
+
+---
+
+## 💾 **STEP 3 — Commit Changes**
+1. Scroll down the page.  
+2. In the **Commit changes** box, write:  
+
+
+Added full README with project details
+
+3. Select **“Commit directly to the main branch”**.  
+
+---
+
+## ✨ **STEP 4 — Add Project Description**
+Now let’s add a short one-line summary at the top of your repository.
+
+1. On the main repo page (where you see “Code / Issues / Pull requests”),  
+click the ⚙️ **gear icon** (next to the repository name).  
+2. Under **Description**, paste this line:  
+
+
+Full Stack Email Categorization and Automation System (Next.js + Node.js)
